@@ -36,6 +36,7 @@ class Screen(object):
         Window.setLayoutDirection(QtCore.Qt.LeftToRight)
         Window.setStyleSheet("background-color: rgb(27, 27, 27);\n")
         Window.setTabShape(QtWidgets.QTabWidget.Rounded)
+        Window.setWindowIcon(QtGui.QIcon('calculator.png'))
         self.centralwidget = QtWidgets.QWidget(Window)
         self.centralwidget.setObjectName("centralwidget")
         self.gridLayoutWidget = QtWidgets.QWidget(self.centralwidget)
